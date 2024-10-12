@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="" xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="header(title)" class="d-flex flex-column flex-md-row align-items-center mt-1 me-3 ms-3 pb-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+    <span class="fs-4" th:text="${title}"></span>
+  </a>
+
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Главная</a>
+    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/blog">Блог</a>
+    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/blog/add">Добавить статью</a>
+    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/about">О себе</a>
+  </nav>
+</div>
+
+
+<div th:fragment="footer" class="container text-body-secondary mt-5 pt-2 pb-5 border-top">
+    <p class="float-end mb-1">:)<a href="#">Наверх</a></p>
+    <p class="mb-1">Сайт-пример для треньки кодинга</p>
+    <p class="mb-0">Привет! <a href="/">На главную</a></p>
+</div>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
